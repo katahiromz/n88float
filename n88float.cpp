@@ -124,7 +124,6 @@ VskSingle vsk_convert_single(const VskString& str)
 
     N88Single n88;
     IEEE754Single ieee754;
-    
 
     std::memcpy(&n88.bytes, str.c_str(), sizeof(N88Single));
 
@@ -165,7 +164,6 @@ VskDouble vsk_convert_double(const VskString& str)
     assert(str.size() == sizeof(VskDouble));
     N88Double n88;
     IEEE754Double ieee754;
-
 
     std::memcpy(&n88.bytes, str.c_str(), sizeof(N88Double));
 
