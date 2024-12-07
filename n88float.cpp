@@ -4,7 +4,6 @@
 #include <cstdio>
 #include <cstring>
 #include <cmath>
-#include <cassert>
 #include <limits>
 #include "n88float.h"
 

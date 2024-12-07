@@ -1,7 +1,8 @@
 #pragma once
 
-#include <cstdint>
 #include <string>
+#include <cstdint>
+#include <cassert>
 
 typedef int16_t VskInt;
 typedef float VskSingle;
