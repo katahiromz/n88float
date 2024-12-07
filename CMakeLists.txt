@@ -7,6 +7,11 @@ cmake_minimum_required(VERSION 3.6)
 # project name and languages
 project(n88float CXX)
 
+# Source code UTF-8 support
+if(MSVC)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /utf-8")
+endif()
+
 # n88float.exe
 add_executable(n88float n88float.cpp)
 target_compile_definitions(n88float PRIVATE N88FLOAT_EXE)
