@@ -1,5 +1,7 @@
 #pragma once
 
+#define N88FLOAT_VERSION 2
+
 #include "types.h"
 
 VskString vsk_make_integer(VskInt value);       // MKI$

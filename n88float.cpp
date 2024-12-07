@@ -70,7 +70,7 @@ VskString vsk_make_single(VskSingle value)
     }
     else
     {
-        n88.n = (s << 23) | (e + SINGLE_BIAS_OFFSET << 24) | m;
+        n88.n = (s << 23) | (e + (SINGLE_BIAS_OFFSET << 24)) | m;
     }
 
     return VskString(reinterpret_cast<char*>(n88.bytes), sizeof(n88.bytes));
